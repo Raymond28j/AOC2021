@@ -1,5 +1,5 @@
 mylist = []
-with open('c:/Users/raymo/Desktop/Python scripts/Day7.txt') as myfile:
+with open('Day7.txt') as myfile:
     for line in myfile:
         mylist = [int(x) for x in line.split(",")]
 

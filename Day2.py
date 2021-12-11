@@ -1,4 +1,4 @@
-with open('c:/Users/raymo/Desktop/Python scripts/Day2.txt') as myfile:
+with open('Day2.txt') as myfile:
     mylist = [[x for x in line.split()] for line in myfile]
 
 x,y=0,0

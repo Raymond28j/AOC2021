@@ -1,4 +1,4 @@
-with open('c:/Users/raymo/Desktop/Python scripts/Day3.txt') as myfile:
+with open('Day3.txt') as myfile:
     mylist = [[int(x) for x in line.split()] for line in myfile]
 
 count = 0

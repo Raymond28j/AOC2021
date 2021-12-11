@@ -3,8 +3,8 @@
 
 mylist = []
 myboard = [[0 for x in range(1000)] for y in range(1000)] 
-#myfile = open('c:/Users/raymo/Desktop/Day5.txt')
-with open('c:/Users/raymo/Desktop/Day5.txt') as myfile:
+#myfile = open('Day5.txt')
+with open('Day5.txt') as myfile:
     mylist = [[int(x) for x in line.split()] for line in myfile]
 
 i=0

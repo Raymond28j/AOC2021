@@ -1,4 +1,4 @@
-with open('c:/Users/raymo/Desktop/Python scripts/Day6.txt') as myfile:
+with open('Day6.txt') as myfile:
     for line in myfile:
         mylist = [int(x) for x in line.split()]
 # print(mylist)

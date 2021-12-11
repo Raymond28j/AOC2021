@@ -1,6 +1,6 @@
-with open('c:/Users/raymo/Desktop/Python scripts/Day11.txt') as myfile:
+with open('Day11.txt') as myfile:
     mylist = [[int(x) for x in line.split()] for line in myfile]
-with open('c:/Users/raymo/Desktop/Python scripts/Day11.txt') as myfile:    
+with open('Day11.txt') as myfile:    
     flashlist = [[0 for x in line.split()] for line in myfile]
 
 

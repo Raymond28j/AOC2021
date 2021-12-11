@@ -1,4 +1,4 @@
-with open('c:/Users/raymo/Desktop/Python scripts/Day10.txt') as myfile:
+with open('Day10.txt') as myfile:
     mylist = [[x for i,x in enumerate(line)] for line in myfile]
 
 def isleft(a):
